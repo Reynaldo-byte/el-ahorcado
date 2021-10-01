@@ -282,8 +282,8 @@ function avanzar() {
     else {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.fillText("enhorabuena, has llegado al final ", 110, 280);
-                     ctx.font = "bold 80px Courier";
-            
+             ctx.font = "bold 80px Courier";
+            lon = (canvas.width - (palabra.length*48))/2;
                 horca(errores);
 
     }
