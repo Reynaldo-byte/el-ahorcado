@@ -91,7 +91,7 @@ var ctx;
                         pista = "Viene del sol";
                         break;
                     case 'HIDROELECTRICA':
-                        pista = "Generada  del agua";
+                        pista = "Generada del agua";
                         break;
                     case 'EOLICA':
                         pista = "Generada con aire";
