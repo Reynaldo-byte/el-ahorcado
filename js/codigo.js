@@ -281,9 +281,7 @@ function avanzar() {
     }
     else {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-         ctx.fillText("Enhorabuena has llegado al final: ", 110, 280);
-                     ctx.font = "bold 80px Courier";
-                                      lon = (canvas.width - (palabra.length*48))/2;
+         ctx.setAttribute("body-bacground","https://c.tenor.com/99OPiCwLgi8AAAAC/minions-enhorabuena.gif");
             
                 horca(errores);
 
