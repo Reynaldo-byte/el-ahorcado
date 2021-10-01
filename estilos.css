@@ -37,7 +37,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     #aviso-movil-horizontal { display: none; }
     @media only screen and (orientation:portrait) {
         #wrapper { display:none; }
-        #aviso-movil-horizontal { display:block; }
+        #aviso-movil-horizontal { display:block;
+      font-size: 20px;
+                text-align: center;
+                font-weight: bolder;}
+      
     }
     @media only screen and (orientation:landscape) {
         #aviso-movil-horizontal { display:none; }
