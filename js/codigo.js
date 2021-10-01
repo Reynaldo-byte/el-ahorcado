@@ -276,12 +276,13 @@ function avanzar() {
                 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     palabras_array.shift();
-                document.getElementById('lista').innerHTML= document.getElementById('lista').innerHTML+"<BR>"+palabras_array[0];
+    document.getElementById('lista').innerHTML= document.getElementById('lista').innerHTML+"<BR>"+palabras_array[0];
     inicio();
     }
     else {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-         ctx.setAttribute("body-bacground","url(https://c.tenor.com/99OPiCwLgi8AAAAC/minions-enhorabuena.gif)");
+        ctx.fillText("enhorabuena, has llegado al final ", 110, 280);
+                     ctx.font = "bold 80px Courier";
             
                 horca(errores);
 
