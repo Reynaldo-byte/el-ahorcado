@@ -286,8 +286,8 @@ function avanzar() {
         ctx.fillText("enhorabuena, has llegado al final ", 110, 280);
              ctx.font = "bold 80px Grandstander";
             lon = (canvas.width - (palabra.length*48))/2;
-                          
-                                           imagen.src = "../imagenes/enhorabuena.png";
+                          var img=new Image();
+                                           img.src = "../imagenes/enhorabuena.png";
                 imagen.onload = function(){
                     ctx.clearRect(390,0,230,230);
                     ctx.drawImage(imagen, 390, 0, 230, 300);};
