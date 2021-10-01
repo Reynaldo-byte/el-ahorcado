@@ -168,8 +168,8 @@ var ctx;
                 var imagen = new Image();
                 imagen.src = "../imagenes/ahorcado"+errores+".png";
                 imagen.onload = function(){
-                    ctx.clearRect(100,0,460,230);
-                    ctx.drawImage(imagen, 100, 0, 460, 230);
+                    ctx.clearRect(180,0,460,230);
+                    ctx.drawImage(imagen, 180, 0, 460, 230);
                 }
             }
             
