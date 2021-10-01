@@ -272,10 +272,9 @@ function avanzar() {
     document.getElementById('lista').innerHTML= document.getElementById('lista').innerHTML+"<BR>"+palabras_array[0];
         letras_array.length=0;
         errores=0;
-    if(palabras_array.length>0){
+    if(palabras_array.length!=0){
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     palabras_array.shift();
-
     inicio();
     }
     else {
