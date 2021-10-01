@@ -34,3 +34,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
                 font-size: 22px;
                 border: groove 4px red;
             }
+    #aviso-movil-horizontal { display: none; }
+    @media only screen and (orientation:portrait) {
+        #wrapper { display:none; }
+        #aviso-movil-horizontal { display:block; }
+    }
+    @media only screen and (orientation:landscape) {
+        #aviso-movil-horizontal { display:none; }
+    }
