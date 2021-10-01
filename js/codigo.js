@@ -281,7 +281,7 @@ function avanzar() {
     }
     else {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-         ctx.setAttribute("body-bacground","https://c.tenor.com/99OPiCwLgi8AAAAC/minions-enhorabuena.gif");
+         ctx.setAttribute("body-bacground","url(https://c.tenor.com/99OPiCwLgi8AAAAC/minions-enhorabuena.gif)");
             
                 horca(errores);
 
