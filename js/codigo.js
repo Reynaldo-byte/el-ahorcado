@@ -288,9 +288,9 @@ function avanzar() {
             lon = (canvas.width - (palabra.length*48))/2;
                           var img=new Image();
                                            img.src = "../imagenes/enhorabuena.png";
-                imagen.onload = function(){
+                imG.onload = function(){
                     
-                    ctx.drawImage(imagen, 0, 0, 230, 300);};
+                    ctx.drawImage(img, 0, 0, 230, 300);};
 
                 horca(errores);
 
