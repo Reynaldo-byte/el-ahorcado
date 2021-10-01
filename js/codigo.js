@@ -85,13 +85,13 @@ var ctx;
                 let pista = ""; 
                 switch(palabra){  
                     case 'GEOTERMICA':    
-                        pista = "Proveniente de la tierra";
+                        pista = "Generada de la tierra";
                         break;     // Es importante el break en cada case 
                     case 'SOLAR':
                         pista = "Viene del sol";
                         break;
                     case 'HIDROELECTRICA':
-                        pista = "Generada con ayuda del agua";
+                        pista = "Generada  del agua";
                         break;
                     case 'EOLICA':
                         pista = "Generada con aire";
