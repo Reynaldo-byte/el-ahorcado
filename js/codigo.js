@@ -168,8 +168,8 @@ var ctx;
                 var imagen = new Image();
                 imagen.src = "../imagenes/ahorcado"+errores+".png";
                 imagen.onload = function(){
-                    ctx.clearRect(320,0,460,230);
-                    ctx.drawImage(imagen, 320, 0, 460, 230);
+                    ctx.clearRect(200,0,460,230);
+                    ctx.drawImage(imagen, 200, 0, 490, 230);
                 }
             }
             
@@ -229,7 +229,7 @@ var ctx;
                 ctx.font = "bold 50px Courier";
                 if (errores < 5 ){
                     
-                        avanzar();
+                      
                 } else {
                     ctx.clearRect(0, 0, canvas.width, canvas.height);
                     ctx.fillText("Lo sentimos, la palabra era: ", 110, 280);
