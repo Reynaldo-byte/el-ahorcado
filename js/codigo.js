@@ -284,15 +284,11 @@ function avanzar() {
     }
     else {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-                
-        ctx.fillText("enhorabuena, has llegado al final ", 110, 280);
-             ctx.font = "bold 80px Grandstander";
-            lon = (canvas.width - (palabra.length*48))/2;
                           var img=new Image();
                                            img.src = "../imagenes/enhorabuena.png";
                 img.onload = function(){
                     ctx.clearRect(320,0,460,230);
-                    ctx.drawImage(img, 100, 100, 230, 300);};
+                    ctx.drawImage(img, 100, 100,canvas.width, canvas.height);};
 
                 horca(errores);
 
