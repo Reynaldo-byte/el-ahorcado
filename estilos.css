@@ -4,7 +4,7 @@
                 padding: 3px;
                 border: solid 2px black;
                 background-image: background-color: #1743a7;
-background-image: "imagenes/fondo1.png";}
+}
 
     body{
             
@@ -16,7 +16,7 @@ background-image: "imagenes/fondo1.png";}
                 border: groove 8px gold;
              background-color: #1743a7;
 background-color: #d4e5e5;
-background-image:"imagenes/fondo1.png";}
+}
             #boton{
                 background-color: red;
                 color: white;
