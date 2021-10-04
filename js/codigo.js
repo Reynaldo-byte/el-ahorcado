@@ -288,7 +288,7 @@ function avanzar() {
                                            img.src = "../imagenes/enhorabuena.png";
                 img.onload = function(){
                     ctx.clearRect(320,0,460,230);
-                    ctx.drawImage(img, 100, 100,canvas.width, canvas.height);};
+                    ctx.drawImage(img, 0, 0,canvas.width, canvas.height);};
 
                 horca(errores);
 
