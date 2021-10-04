@@ -27,7 +27,7 @@
                 border: solid 2px black;
             }
             #boton:hover{ /* Estilo que se activa al pasar el puntero sobre el boton */
-                background-color: lightcoral;
+                background-color: #1743a7;
                 font-size: 22px;
                 border: groove 4px red;
             }
