@@ -14,7 +14,7 @@
             }
             #pantalla{
                 border: groove 8px gold;
-             background-color: #12EADC;
+             
 
 }
             #boton{
@@ -27,7 +27,7 @@
                 border: solid 2px black;
             }
             #boton:hover{ /* Estilo que se activa al pasar el puntero sobre el boton */
-                background-color: #1743a7;
+                background-color: #12EADC;
                 font-size: 22px;
                 border: groove 4px red;
             }
