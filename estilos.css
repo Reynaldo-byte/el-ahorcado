@@ -8,13 +8,13 @@
 
     body{
             
-      background-image:url("imagenes/descarga.png");            }
+      background-image:url("imagenes/ahorcado.png");            }
             h1{
                 text-align: center;
             }
             #pantalla{
                 border: groove 8px gold;
-              background-image:"imagenes/fondo1.png";
+              
 
 }
             #boton{
