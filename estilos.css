@@ -15,7 +15,7 @@
             }
             #pantalla{
                 border: groove 8px gold;
-              backgroun-color:#D9F2F1;
+              background-color: rgba(217,2142, 241, 0.5);
               opacity: 0.5;
 
 }
