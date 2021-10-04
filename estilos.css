@@ -14,7 +14,7 @@
             }
             #pantalla{
                 border: groove 8px gold;
-             
+              background-image:"imagenes/fondo1.png";
 
 }
             #boton{
