@@ -7,7 +7,10 @@
               
     
 }
+#pistas{
+ background-color: #65F2EC;
 
+}
     body{
             
       background-image:url("imagenes/ahorcado.png");            }
