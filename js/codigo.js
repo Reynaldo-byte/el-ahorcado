@@ -292,7 +292,7 @@ function avanzar() {
                                            img.src = "../imagenes/enhorabuena.png";
                 img.onload = function(){
                     ctx.clearRect(320,0,460,230);
-                    ctx.drawImage(img, 0, 0, 230, 300);};
+                    ctx.drawImage(img, 100, 100, 230, 300);};
 
                 horca(errores);
 
