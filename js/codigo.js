@@ -229,7 +229,7 @@ var ctx;
                 ctx.font = "bold 50px Courier";
                 if (errores < 5 ){
                     
-               
+                        avanzar();
                 } else {
                     ctx.clearRect(0, 0, canvas.width, canvas.height);
                     ctx.fillText("Lo sentimos, la palabra era: ", 110, 280);
