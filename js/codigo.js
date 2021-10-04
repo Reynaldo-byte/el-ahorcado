@@ -104,7 +104,7 @@ var ctx;
                         break;
 
                 }
-                document.getElementById('pista').innerHTML=pista;
+                document.getElementById('pista').innerHTML="Pista"+pista;
 
             }
            
