@@ -104,7 +104,7 @@ var ctx;
                         break;
 
                 }
-                
+                document.getElementById('pista').innerHTML=pista;
 
             }
            
@@ -143,7 +143,7 @@ var ctx;
            
                 palabra = palabras_array[j];
             pistaFunction(palabra)
-                 document.getElementById('pista').innerHTML=pista;
+                 
             
                 var w = canvas.width;
                 var len = palabra.length;
