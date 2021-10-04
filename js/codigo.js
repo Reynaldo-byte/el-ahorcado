@@ -145,7 +145,7 @@ var ctx;
            
                 palabra = palabras_array[j];
       
-                pistaFunction(palabra);
+                 document.getElementById('pista').innerHTML=pistaFunction(palabra);
             
                 var w = canvas.width;
                 var len = palabra.length;
