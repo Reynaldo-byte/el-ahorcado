@@ -4,6 +4,7 @@
                 padding: 3px;
                 border: solid 2px black;
               background-color: #1743a7;
+    
 }
 
     body{
@@ -14,7 +15,7 @@
             }
             #pantalla{
                 border: groove 8px gold;
-              
+              opacity: 0.5;
 
 }
             #boton{
