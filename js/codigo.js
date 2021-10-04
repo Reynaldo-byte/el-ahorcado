@@ -105,9 +105,7 @@ var ctx;
 
                 }
                 
-                ctx.fillStyle = "black";  
-                ctx.font = "bold 20px Courier";  
-                ctx.fillText(pista, 10, 15);  
+
             }
            
                     
@@ -144,8 +142,8 @@ var ctx;
             function pintaPalabra(j){
            
                 palabra = palabras_array[j];
-      
-                 document.getElementById('pista').innerHTML=pistaFunction(palabra);
+            pistaFunction(palabra)
+                 document.getElementById('pista').innerHTML=pista;
             
                 var w = canvas.width;
                 var len = palabra.length;
