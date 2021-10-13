@@ -21,9 +21,7 @@ var ctx;
             var errores = 0;
             
             /* Palabras */
-            palabras_array.push("NUCLEAR");
-   
-            
+            palabras_array.push("NUCLEAR");            
             palabras_array.push("HIDROELECTRICA");
             palabras_array.push("GEOTERMICA");
             palabras_array.push("EOLICA");
@@ -104,7 +102,7 @@ var ctx;
                         break;
 
                 }
-                document.getElementById('pista').innerHTML="Pista"+pista;
+                document.getElementById('pista').innerHTML="Pista: "+pista;
 
             }
            
@@ -281,6 +279,7 @@ function avanzar() {
     inicio();
     }
     else {
+                  palabras_array.shift();
         ctx.clearRect(0, 0, canvas.width, canvas.height);
                           var img=new Image();
                                            img.src = "../imagenes/enhorabuena.png";
