@@ -287,7 +287,7 @@ function avanzar() {
                     ctx.clearRect(320,0,460,230);
                     ctx.drawImage(img, 0, 0,canvas.width-100, canvas.height-100);};
 
-                document.getElementById('boton').setAttribute("disabled","");
+                document.getElementById('boton').setAttribute("hidden","");
 
     }
 
