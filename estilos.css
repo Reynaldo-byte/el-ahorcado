@@ -49,11 +49,12 @@
             #buton:hover{ /* Estilo que se activa al pasar el puntero sobre el boton */
                 background-color: #12EADC;
                 font-size: 22px;
-                border: groove 4px red;
+              border: groove 4px red;}
     #aviso-movil-horizontal { display: none; }
     @media only screen and (orientation:portrait) {
         #wrapper { display:none; }
-        #aviso-movil-horizontal { display:block;
+        #aviso-movil-horizontal { z-index=0;
+          display:block;
       font-size: 20px;
                 text-align: center;
                 font-weight: bolder;}
