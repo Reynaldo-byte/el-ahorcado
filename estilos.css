@@ -13,7 +13,9 @@
 }
     body{
             
-      background-image:url("imagenes/ahorcado.png");            }
+      background-image:url("imagenes/ahorcado.png");   
+      background-size:cover;
+}
             h1{
                 text-align: center;
             }
