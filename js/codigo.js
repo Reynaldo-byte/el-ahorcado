@@ -98,7 +98,7 @@ var ctx;
                         pista = "Generada con calor";
                         break;
                     case 'NUCLEAR':
-                        pista = "Generada con atomos";
+                        pista = "Generada con átomos";
                         break;
 
                 }
