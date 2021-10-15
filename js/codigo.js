@@ -212,7 +212,7 @@ var ctx;
                     tecla.x - 1;
                     /* checa si se gano y manda a la funcion gameover */
                     if (aciertos == palabra.length) {
-                                gameOver(errores);
+                                document.getElementById("boton").removeAttribute("hidden");
                                 }
 
                 }
