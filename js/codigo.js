@@ -206,13 +206,14 @@ var ctx;
                         errores++;
                         horca(errores);
                         if (errores == 5) gameOver(errores);
-                    }else{  document.getElementById("boton").removeAttribute("hidden");
                     }
                     /* Borra la tecla que se a presionado */
                     ctx.clearRect(tecla.x - 1, tecla.y - 1, tecla.ancho + 2, tecla.alto + 2);
                     tecla.x - 1;
                     /* checa si se gano y manda a la funcion gameover */
-                    if (aciertos == palabra.length) gameOver(errores);
+                    if (aciertos == palabra.length) {
+                                 document.getElementById("boton").removeAttribute("hidden");
+                                gameOver(errores);}
 
                 }
             }
