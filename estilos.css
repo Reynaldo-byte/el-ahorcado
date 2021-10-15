@@ -4,6 +4,7 @@
                 padding: 3px;
                 border: solid 2px black;
               background-color: #FBE19F;
+                font-size:2rem;
               
     
 }
@@ -28,7 +29,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
             #boton{
                 background-color: red;
                 color: white;
-                font-size: 1.3rem;
+                font-size: 1.5rem;
                 text-align: center;
                 font-weight: bolder;
                 padding: 3px;
@@ -36,13 +37,13 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
             }
             #boton:hover{ /* Estilo que se activa al pasar el puntero sobre el boton */
                 background-color: #12EADC;
-                font-size: 22px;
+                font-size:1.5rem;
                 border: groove 4px red;
             }
             #buton{
                 background-color: red;
                 color: white;
-                font-size: 1.3rem;
+                font-size: 1.5rem;
                 text-align: center;
                 font-weight: bolder;
                 padding: 3px;
@@ -50,7 +51,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
             }
             #buton:hover{ /* Estilo que se activa al pasar el puntero sobre el boton */
                 background-color: #12EADC;
-                font-size: 1rem;
+                font-size: 1.5rem;
               border: groove 4px red;}
     #aviso-movil-horizontal { display: none; }
     @media only screen and (orientation:portrait) {
