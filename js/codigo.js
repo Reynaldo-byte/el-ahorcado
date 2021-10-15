@@ -271,6 +271,7 @@ function avanzar() {
     
         letras_array.length=0;
         errores=0;
+            aciertos=0;
            
             document.getElementById('lista').innerHTML= document.getElementById('lista').innerHTML+"<BR>"+palabras_array[0];
     if(palabras_array.length>1){
