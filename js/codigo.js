@@ -206,6 +206,7 @@ var ctx;
                         errores++;
                         horca(errores);
                         if (errores == 5) gameOver(errores);
+                    }else{  document.getElementById("boton").removeAttribute("hidden");
                     }
                     /* Borra la tecla que se a presionado */
                     ctx.clearRect(tecla.x - 1, tecla.y - 1, tecla.ancho + 2, tecla.alto + 2);
@@ -224,7 +225,7 @@ var ctx;
 
                 ctx.font = "bold 50px Courier";
                 if (errores < 5 ){
-                            document.getElementById("boton").removeAttribute("hidden");
+                          
                     
                       
                 } else {
