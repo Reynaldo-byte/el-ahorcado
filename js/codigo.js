@@ -287,7 +287,7 @@ function avanzar() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
                          ctx.clearRect(0, 0, canvas.width, canvas.height);
                     ctx.fillText("Enhorabuena!!!,has terminado pulsa finalizar para volver a empezar", 110, 280);
-                     ctx.font = "bold 80px Calibri";
+                     ctx.font = "bold 60px Calibri";
 
                 document.getElementById('boton').setAttribute("hidden","");
 
