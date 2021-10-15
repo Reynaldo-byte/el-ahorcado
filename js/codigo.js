@@ -224,7 +224,7 @@ var ctx;
 
                 ctx.font = "bold 50px Courier";
                 if (errores < 5 ){
-                            document.getElementById("avanzar").removeAttribute("hidden");
+                            document.getElementById("boton").removeAttribute("hidden");
                     
                       
                 } else {
@@ -242,7 +242,7 @@ var ctx;
            
 function inicio() {
 
-    document.getElementById("avanzar").setAttribute("hidden","");
+    document.getElementById("boton").setAttribute("hidden","");
     canvas = document.getElementById("pantalla");
 
                 if (canvas && canvas.getContext){
