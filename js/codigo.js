@@ -213,7 +213,7 @@ var ctx;
                     /* checa si se gano y manda a la funcion gameover */
                     if (aciertos == palabra.length) {
                                  document.getElementById("boton").removeAttribute("hidden");
-                                gameOver(errores);}
+                                }
 
                 }
             }
