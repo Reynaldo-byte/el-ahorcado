@@ -285,11 +285,9 @@ function avanzar() {
     else {
                   palabras_array.shift();
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-                          var img=new Image();
-                                           img.src = "../imagenes/enhorabuena.png";
-                img.onload = function(){
-                    ctx.clearRect(320,0,460,230);
-                    ctx.drawImage(img, 0, 0,canvas.width-100, canvas.height-100);};
+                         ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    ctx.fillText("Enhorabuena!!!,has terminado pulsa finalizar para volver a empezar", 110, 280);
+                     ctx.font = "bold 80px Calibri";
 
                 document.getElementById('boton').setAttribute("hidden","");
 
