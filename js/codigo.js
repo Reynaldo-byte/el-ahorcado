@@ -286,7 +286,9 @@ function avanzar() {
                   palabras_array.shift();
         ctx.clearRect(0, 0, canvas.width, canvas.height);
                          ctx.clearRect(0, 0, canvas.width, canvas.height);
-                    ctx.fillText("Enhorabuena!!!,has terminado pulsa finalizar para volver a empezar", 110, 280);
+                    ctx.fillText("Enhorabuena!!!,has terminado pulsa ", 110, 200);
+                        ctx.fillText("  finalizar para volver a empezar", 110, 270);
+              
                      ctx.font = "bold 60px Calibri";
 
                 document.getElementById('boton').setAttribute("hidden","");
